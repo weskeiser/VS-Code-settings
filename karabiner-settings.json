@@ -1,0 +1,56 @@
+{
+  "title": "Launch apps4",
+  "rules": [
+    {
+      "description": "Launch apps by capslock",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": { "mandatory": ["caps_lock"] }
+          },
+          "to": [
+            { "shell_command": "open '/Applications/Visual Studio Code.app'" }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": { "mandatory": ["caps_lock"] }
+          },
+          "to": [{ "shell_command": "open '/Applications/Firefox.app'" }]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": { "mandatory": ["caps_lock"] }
+          },
+          "to": [
+            {
+              "shell_command": "open '/Applications/Firefox Developer Edition.app'"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "m",
+            "modifiers": { "mandatory": ["caps_lock"] }
+          },
+          "to": [{ "shell_command": "open -aterminal" }]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "p",
+            "modifiers": { "mandatory": ["caps_lock"] }
+          },
+          "to": [{ "shell_command": "open '/Applications/Postman.app'" }]
+        }
+      ]
+    }
+  ]
+}
