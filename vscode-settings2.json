@@ -1,0 +1,145 @@
+{
+  "workbench.editor.decorations.colors": false,
+  "editor.cursorBlinking": "solid",
+  "editor.lightbulb.enabled": false,
+  "editor.tabSize": 2,
+  // "breadcrumbs.enabled": false,
+  "terminal.integrated.commandsToSkipShell": [
+    "workbench.action.debug.run",
+    "workbench.action.debug.continue",
+    "workbench.action.debug.stop"
+  ],
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#ffff",
+    "editorLineNumber.activeForeground": "#31f018",
+    "tree.indentGuidesStroke": "#8a8787",
+    "editorIndentGuide.activeBackground": "#736d6d",
+    "editorIndentGuide.background": "#736d6d",
+    "editorBracketHighlight.foreground1": "#5bb3b3",
+    "editorBracketHighlight.foreground2": "#fac863",
+    "editorBracketHighlight.foreground3": "#f99157",
+    "editorBracketHighlight.foreground4": "#db578c",
+    "editorBracketHighlight.foreground5": "#bb80b3",
+    "editorBracketHighlight.foreground6": "#98C379",
+    "tab.activeBackground": "#394559f5",
+    "tab.hoverBackground": "#0000007a",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveForeground": "#d5d6e7",
+    "titleBar.activeForeground": "#FFFFFF"
+  },
+  "explorer.compactFolders": false,
+  "workbench.tree.indent": 18,
+  "workbench.startupEditor": "none",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.tokenColorCustomizations": {
+    "comments": "#448f44"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.lineNumbers": "relative",
+  "eslint.format.enable": true,
+  "html.format.wrapLineLength": 80,
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "eslint.useESLintClass": true,
+  "editor.semanticHighlighting.enabled": true,
+  "vim.highlightedyank.enable": true,
+  // "prettier.singleQuote": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.sideBar.location": "right",
+  "editor.smoothScrolling": true,
+  "editor.minimap.maxColumn": 15,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.size": "fill",
+  "workbench.editor.enablePreview": false,
+  "workbench.activityBar.visible": false,
+  "editor.cursorSurroundingLines": 10,
+  "editor.renderLineHighlight": "all",
+  "editor.minimap.renderCharacters": false,
+  "json.maxItemsComputed": 20000,
+  "editor.foldingMaximumRegions": 20000,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [";"],
+      "after": ["g", "_"]
+    },
+    {
+      "before": ["$"],
+      "after": [";"]
+    },
+    {
+      "before": [":"],
+      "after": ["_"]
+    },
+    {
+      "before": ["_"],
+      "after": [":"]
+    }
+  ],
+  "vim.operatorPendingModeKeyBindingsNonRecursive": [
+    {
+      "before": [";"],
+      "after": ["g", "_"]
+    },
+    {
+      "before": ["$"],
+      "after": [";"]
+    },
+    {
+      "before": [":"],
+      "after": ["_"]
+    },
+    {
+      "before": ["_"],
+      "after": [":"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [";"],
+      "after": ["g", "_"]
+    },
+    {
+      "before": ["$"],
+      "after": [";"]
+    },
+    {
+      "before": [":"],
+      "after": ["_"]
+    },
+    {
+      "before": ["_"],
+      "after": [":"]
+    },
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+  "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+  "typescript.tsserver.maxTsServerMemory": 8192,
+  "typescript.format.enable": false,
+  "editor.accessibilitySupport": "off",
+  "extensions.ignoreRecommendations": true,
+  "telemetry.telemetryLevel": "crash",
+  "typescript.surveys.enabled": false,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.mode": "none",
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "typescript.tsserver.log": "verbose",
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "editor.quickSuggestionsDelay": 1,
+  "editor.suggest.preview": true
+}
